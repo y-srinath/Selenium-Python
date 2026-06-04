@@ -1,0 +1,18 @@
+# Ignore specific file
+CLAUDE.md
+secret.txt
+config.py
+
+# Ignore specific folder
+.claude/
+__pycache__/
+.pytest_cache/
+venv/
+
+# Ignore file types
+*.log
+*.csv
+*.env
+
+# Ignore VS Code settings
+.vscode/
