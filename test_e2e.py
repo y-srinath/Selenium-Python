@@ -25,4 +25,4 @@ def test_e2e(browserInstance):
     success_message = driver.find_element(By.CLASS_NAME, "alert-success").text
     assert "Success! Thank you!" in success_message, "Purchase was not successful"  
 
-    time.sleep(3)
+    time.sleep(4)
