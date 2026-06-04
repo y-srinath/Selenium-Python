@@ -87,7 +87,7 @@ pytest -n 4
 
 ---
 
-## 🌐 Browser Support
+🌐 Browser Support
 
 | Browser | Supported |
 |---------|-----------|
@@ -97,7 +97,7 @@ pytest -n 4
 
 ---
 
-## 📊 Test Reports
+📊 Test Reports
 
 HTML reports are generated in the `reports/` folder after each run:
 
@@ -107,7 +107,7 @@ pytest --html=reports/report.html
 
 ---
 
-## 🔑 Key Features
+🔑 Key Features
 
 - **Page Object Model** — separates test logic from page interactions for maintainability
 - **Data-Driven Testing** — parameterized fixtures to run tests with multiple data sets
@@ -117,7 +117,7 @@ pytest --html=reports/report.html
 
 ---
 
-## 🧩 Example Test
+🧩 Example Test
 
 ```python
 def test_e2e(browserInstance):
@@ -141,7 +141,7 @@ def test_e2e(browserInstance):
 
 ---
 
-##👤 Author
+👤 Author
 
 **Sriye**  
 [GitHub](https://github.com/y-srinath)
