@@ -143,7 +143,7 @@ def test_e2e(browserInstance):
 
 👤 Author
 
-**Sriye**  
+**Srinath Yellepeddi**  
 [GitHub](https://github.com/y-srinath)
 
 ---
