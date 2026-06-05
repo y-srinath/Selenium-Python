@@ -23,6 +23,6 @@ def test_e2e(browserInstance):
     driver.find_element(By.XPATH, "//div[@class='checkbox checkbox-primary']").click()
     driver.find_element(By.XPATH, "//input[@value='Purchase']").click()
     success_message = driver.find_element(By.CLASS_NAME, "alert-success").text
-    assert "Success! Thank you!" in success_message, "Purchase was not successful"  
+    assert "Success! Thank you!" in success_message, "Purchase was unsuccessful"  
 
     time.sleep(4)
