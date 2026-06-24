@@ -22,10 +22,6 @@ Selenium-Python/
 │
 ├── conftest.py              # Fixtures and browser setup
 │
-├── pages/                   # Page Object classes
-│   ├── login_page.py
-│   ├── home_page.py
-│   └── checkout_page.py
 │
 ├── test_data/              # Test data files
 │
