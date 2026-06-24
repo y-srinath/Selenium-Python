@@ -1,18 +1,30 @@
-# Ignore specific file
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Reports / generated files
+reports/
+*.html
+
+# IDE / local settings
+.vscode/
+.idea/
+
+# Tool-specific
+.claude/
 CLAUDE.md
+
+# Environment/config/secrets
+.env
 secret.txt
 config.py
 
-# Ignore specific folder
-.claude/
-__pycache__/
-.pytest_cache/
-venv/
-
-# Ignore file types
+# Logs
 *.log
-*.csv
-*.env
-
-# Ignore VS Code settings
-.vscode/
