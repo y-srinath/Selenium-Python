@@ -21,18 +21,14 @@ A test automation framework built with **Selenium WebDriver** and **Python**, fo
 Selenium-Python/
 │
 ├── conftest.py              # Fixtures and browser setup
-├── pytest.ini               # Pytest configuration and markers
 │
 ├── pages/                   # Page Object classes
 │   ├── login_page.py
 │   ├── home_page.py
 │   └── checkout_page.py
 │
-├── test_files/              # Test data files
+├── test_data/              # Test data files
 │
-├── excel_files/             # Excel data for data-driven tests
-│
-├── reports/                 # Test execution reports
 │
 ├── tests/                   # Test files
 │   ├── test_1.py
@@ -48,22 +44,26 @@ Selenium-Python/
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
+
 - Python 3.x installed
 - Google Chrome / Firefox / Edge installed
 - pip package manager
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/y-srinath/Selenium-Python.git
 cd Selenium-Python
 ```
 
 ### 2. Install dependencies
+
 ```bash
 pip install selenium pytest pytest-html
 ```
 
 ### 3. Run tests
+
 ```bash
 # Run all tests
 pytest
@@ -90,10 +90,10 @@ pytest -n 4
 🌐 Browser Support
 
 | Browser | Supported |
-|---------|-----------|
-| Chrome  | ✅ |
-| Firefox | ✅ |
-| Edge    | ✅ |
+| ------- | --------- |
+| Chrome  | ✅        |
+| Firefox | ✅        |
+| Edge    | ✅        |
 
 ---
 
